@@ -13,6 +13,8 @@
 		3F2D0728276144000038904E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F2D0726276144000038904E /* Main.storyboard */; };
 		3F2D072A276144030038904E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F2D0729276144030038904E /* Assets.xcassets */; };
 		3F2D072D276144030038904E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F2D072B276144030038904E /* LaunchScreen.storyboard */; };
+		3F2D0736276144330038904E /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2D0735276144330038904E /* ResultViewController.swift */; };
+		3F2D073A27614A0C0038904E /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2D073927614A0C0038904E /* Questions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		3F2D0729276144030038904E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F2D072C276144030038904E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F2D072E276144030038904E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F2D0735276144330038904E /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		3F2D073927614A0C0038904E /* Questions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +62,13 @@
 			children = (
 				3F2D0720276144000038904E /* AppDelegate.swift */,
 				3F2D0722276144000038904E /* SceneDelegate.swift */,
-				3F2D0724276144000038904E /* ViewController.swift */,
 				3F2D0726276144000038904E /* Main.storyboard */,
 				3F2D0729276144030038904E /* Assets.xcassets */,
 				3F2D072B276144030038904E /* LaunchScreen.storyboard */,
 				3F2D072E276144030038904E /* Info.plist */,
+				3F2D0724276144000038904E /* ViewController.swift */,
+				3F2D0735276144330038904E /* ResultViewController.swift */,
+				3F2D073927614A0C0038904E /* Questions.swift */,
 			);
 			path = QuizApp;
 			sourceTree = "<group>";
@@ -140,6 +146,8 @@
 				3F2D0725276144000038904E /* ViewController.swift in Sources */,
 				3F2D0721276144000038904E /* AppDelegate.swift in Sources */,
 				3F2D0723276144000038904E /* SceneDelegate.swift in Sources */,
+				3F2D073A27614A0C0038904E /* Questions.swift in Sources */,
+				3F2D0736276144330038904E /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
